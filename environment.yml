@@ -1,0 +1,9 @@
+name: localtls
+channels:
+  - defaults
+dependencies:
+  - pip=21.2.4=py310hecd8cb5_0
+  - python=3.10.4=hdfd78df_0
+  - pip:
+    - cherrypy==18.6.1
+    - dnslib==0.9.19
